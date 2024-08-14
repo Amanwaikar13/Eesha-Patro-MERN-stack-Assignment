@@ -10,7 +10,10 @@ This project is a MERN stack application that integrates a third-party API to ma
 
 ## Product Rendering and Search Functionality
 
-The application is designed to efficiently fetch and render data from a third-party API, presenting it in a user-friendly table format. This allows users to easily view and interact with the information displayed. A key feature of the application is its robust search functionality, which enables users to filter the displayed data in real-time. By entering search terms in the input box, users can quickly narrow down the results to find specific items of interest. When the search input is cleared, the application seamlessly reverts to displaying the complete dataset, allowing users to explore all available options. This combination of data rendering and search capability enhances the overall usability of the application, making it easier for users to locate the information they need efficiently.
+The application efficiently fetches and renders data from a third-party API, presenting it in a user-friendly table format. Users can easily view and interact with the displayed information, and a robust search functionality allows them to filter data in real-time. By entering search terms, users can quickly narrow down results, while clearing the input reverts to displaying the full dataset. This combination of data rendering and search capability enhances the application's usability, making it easier for users to locate the information they need efficiently.
+
+
+![products](products-git.gif)
 
 ### Example API Response
 
