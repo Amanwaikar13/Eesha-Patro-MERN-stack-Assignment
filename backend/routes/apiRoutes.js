@@ -17,13 +17,16 @@ router.get('/transactions', async (req, res) => {
 
         let searchQuery = {};
 
+        // Convert search to a number if possible
+        const searchNumber = parseFloat(search);
+
         if (search) {
             if (!isNaN(searchNumber)) {
                 searchQuery = {
                     $or: [
                         { title: new RegExp(search, 'i') },
                         { description: new RegExp(search, 'i') },
-                        { price: searchNumber } 
+                        { price: searchNumber } // Only match price if search is a number
                     ]
                 };
             } else {
@@ -59,7 +62,6 @@ router.get('/transactions', async (req, res) => {
         res.status(500).json({ error: 'Internal Server Error' });
     }
 });
-
 
 router.get('/statistics', async (req, res) => {
     try {
