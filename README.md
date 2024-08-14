@@ -22,6 +22,8 @@ The application utilizes a JSON response from the API to populate the table. The
 
 The application provides insightful statistics and visual representations of transaction data through a comprehensive statistics section, bar chart, and pie chart. Users can select a month from the dropdown menu, and the application will fetch and display relevant data for that selected month. The **Transaction Statistics** feature showcases key metrics, including the total amount of sales, the total number of sold items, and the total number of items that were not sold. This information is presented in an easily digestible format, allowing users to quickly assess performance for the selected month.
 
+![Chart](Chart-GIF.gif)
+
 Additionally, the **Transactions Bar Chart** visually represents the price ranges and the corresponding number of items within those ranges for the selected month, regardless of the year. This bar chart enables users to understand pricing distribution and identify trends at a glance. 
 
 Furthermore, a **Pie Chart** is included to illustrate the breakdown of unique categories and the number of items within each category for the selected month. By leveraging the API, these visualizations and statistics enhance the user's ability to analyze and interpret transaction data effectively, providing valuable insights for decision-making.
@@ -32,8 +34,16 @@ Furthermore, a **Pie Chart** is included to illustrate the breakdown of unique c
 - **Frontend**: React, Axios
 - **Backend**: Node.js, Express, MongoDB
   
-## How to Use
-1. Clone the repository.
-2. Install dependencies.
-3. Set up the backend to initialize the database.
-4. Run the frontend to view the transaction table and charts.
+
+## Setup Instructions
+
+```bash
+git clone https://github.com/Amanwaikar13/Eesha-Patro-MERN-stack-Assignment.git
+cd Eesha-Patro-MERN-stack-Assignment
+cd backend
+npm install
+npm start
+cd ../frontend
+npm install
+npm start
+
