@@ -1,4 +1,4 @@
-﻿# Eesha-Patro-MERN-stack-Assignment
+﻿# MERN Stack Product Transaction Manager with API Integration and Data Visualization
 
 This project is a MERN stack application that integrates a third-party API to manage product transactions. It initializes a database with seed data fetched from the provided API and offers a set of RESTful APIs to facilitate the retrieval and manipulation of transaction data. Users can filter transactions by month, search through product titles, descriptions, and prices, and visualize statistics through bar and pie charts.
 
@@ -10,14 +10,14 @@ This project is a MERN stack application that integrates a third-party API to ma
 
 ## Product Rendering and Search Functionality
 
-The application efficiently fetches and renders data from a third-party API, presenting it in a user-friendly table format. Users can easily view and interact with the displayed information, and a robust search functionality allows them to filter data in real-time. By entering search terms, users can quickly narrow down results, while clearing the input reverts to displaying the full dataset. This combination of data rendering and search capability enhances the application's usability, making it easier for users to locate the information they need efficiently.
+The application efficiently fetches and renders data from a third-party API, presenting it in a user-friendly table format. Users can easily view and interact with the displayed information, and a robust search functionality allows them to filter data in real time. Users can quickly narrow down results by entering search terms while clearing the input reverts to displaying the full dataset. This combination of data rendering and search capability enhances the application's usability, making it easier for users to locate the information they need efficiently.
 
 
 ![products](products-git.gif)
 
 ### Example API Response
 
-The application utilizes a JSON response from the API to populate the table. The search functionality updates the displayed results in real-time, providing users with a seamless experience in finding relevant information.
+The application utilizes a JSON response from the API to populate the table. The search functionality updates the displayed results in real time, providing users with a seamless experience in finding relevant information.
 
 
 
